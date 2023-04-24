@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sprint 2</title>
+    <link rel="stylesheet" href="/css/custom.css" />
+    <!-- Bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <!-- font awesome icons -->
+    <script
+      src="https://kit.fontawesome.com/3c0ccc9c73.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--  Barra de navegacion / NavBar -->
+    <nav
+      class="navbar navbar-expand-md navbar-light p-3 bg-light w-100 sticky-top"
+    >
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="/Recursos_projecte_sprint_2-20230213/Imagenes/logo-bookmark.svg"
+              alt="bookmark logo"
+          /></a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#features"
+                >FEATURES</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PRICING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+            <a class="btn btn-primary" href="#" role="button">LOGIN</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- section Hero -->
+    <div class="container-fluid row d-flex">
+      <div class="row d-flex">
+        <div class="col-12 col-lg-6 col-md-6 order-md-2 mt-5 position-relative">
+          <img
+            class="img-fluid"
+            src="Recursos_projecte_sprint_2-20230213/Imagenes/illustration-hero.svg"
+          />
+          <div class="object"></div>
+        </div>
+
+        <div class="col-12 col-md-6 order-md-1 text-center align-self-center">
+          <h2 class="fw-bold mt-5 pt-5">A Simple Bookmark Manager</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+            officia at quasi architecto magnam porro animi labore necessitatibus
+            ducimus ullam.
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary btn-lg px-4 me-md-2 shadow"
+          >
+            Get it on Chrome
+          </button>
+          <button
+            type="button"
+            class="btn btn-outline-secondary btn-lg px-4 shadow"
+          >
+            Get it on firefox
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- section features -->
+    <div
+      class="container d-flex align-content-center justify-content-center text-center"
+    >
+      <div class="contenedor m-5">
+        <h2 id="features" class="fw-bold">Features</h2>
+        <p class="seccion-texto px-5 my-4 mx-5">
+          Our aim to make it quick and easy for you to access your favourite
+          websites. <br />
+          Your bookmarks sync between your devices so you can access them on the
+          go.
+        </p>
+      </div>
+    </div>
+    <!-- Section tab links -->
+    <div class="container">
+      <div class="row d-flex">
+        <div class="col-md-12">
+          <div role="tabpanel">
+            <ul
+              class="ul-decoration nav nav-tabs justify-content-center"
+              role="tablist"
+            >
+              <li role="presentation" class="active">
+                <a
+                  href="#seccion1"
+                  aria-controls="seccion1"
+                  data-bs-toggle="tab"
+                  class="text-decoration-none active mx-5 px-5"
+                  role="tab
+                "
+                  >Simple Bookmarking
+                </a>
+              </li>
+              <li role="presentation">
+                <a
+                  href="#seccion2"
+                  aria-controls="seccion2"
+                  data-bs-toggle="tab"
+                  class="text-decoration-none mx-5 px-5"
+                  role="tab
+                "
+                  >Speedy Searching
+                </a>
+              </li>
+              <li role="presentation">
+                <a
+                  href="#seccion3"
+                  aria-controls="seccion3"
+                  data-bs-toggle="tab"
+                  class="text-decoration-none mx-5 px-5"
+                  role="tab"
+                  >Easy Sharing
+                </a>
+              </li>
+            </ul>
+            <!-- section tab content -->
+            <div class="tab-content">
+              <!-- primer tab -->
+              <div role="tabpanel" class="tab-pane show active" id="seccion1">
+                <!-- ? active -->
+
+                <div class="container col-xxl-8 px-2 py-5">
+                  <div class="row align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6 position-relative">
+                      <img
+                        src="/Recursos_projecte_sprint_2-20230213/Imagenes/illustration-features-tab-1.svg"
+                        class="d-block img-fluid"
+                        alt="Bootstrap Themes"
+                        width="700"
+                        height="500"
+                        loading="lazy"
+                      />
+                      <div class="object-1"></div>
+                    </div>
+                    <div class="col-lg-6">
+                      <h1
+                        class="display-5 fw-bold text-body-emphasis lh-1 mb-4 ms-5 mt-5"
+                      >
+                        Bookmark in one click
+                      </h1>
+                      <p class="lead ms-5">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Sint, minus.Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Sint, minus.Lorem ipsum
+                        dolor sit amet, consectetur adipisicing elit. Sint,
+                        minus.
+                      </p>
+                      <div
+                        class="d-grid ms-5 gap-2 d-md-flex justify-content-md-start"
+                      >
+                        <button
+                          type="button"
+                          class="btn btn-primary btn-lg px-4"
+                        >
+                          Primary
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- segundo tab -->
+              <div role="tabpanel" class="tab-pane" id="seccion2">
+                <div class="container col-xxl-8 px-2 py-5">
+                  <div class="row align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6 position-relative">
+                      <img
+                        src="/Recursos_projecte_sprint_2-20230213/Imagenes/illustration-features-tab-2.svg"
+                        class="d-block img-fluid"
+                        alt="Bootstrap Themes"
+                        width="700"
+                        height="500"
+                        loading="lazy"
+                      />
+                      <div class="object-1"></div>
+                    </div>
+                    <div class="col-lg-6">
+                      <h1
+                        class="display-5 fw-bold text-body-emphasis lh-1 mb-4 ms-5 mt-5"
+                      >
+                        Intelligent search
+                      </h1>
+                      <p class="lead ms-5">
+                        Our powerful search feature will help you find saved
+                        sites it no time at all. No need to trawl through all of
+                        your bookmarks.
+                      </p>
+                      <div
+                        class="d-grid ms-5 gap-2 d-md-flex justify-content-md-start"
+                      >
+                        <button
+                          type="button"
+                          class="btn btn-primary btn-lg px-4"
+                        >
+                          Primary
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- tercer tab -->
+              <div role="tabpanel" class="tab-pane" id="seccion3">
+                <div class="container col-xxl-8 px-2 py-5">
+                  <div class="row align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6 position-relative">
+                      <img
+                        src="/Recursos_projecte_sprint_2-20230213/Imagenes/illustration-features-tab-3.svg"
+                        class="d-block img-fluid"
+                        alt="Bootstrap Themes"
+                        width="700"
+                        height="500"
+                        loading="lazy"
+                      />
+                      <div class="object-1"></div>
+                    </div>
+                    <div class="col-lg-6">
+                      <h1
+                        class="display-5 fw-bold text-body-emphasis lh-1 mb-4 ms-5 mt-5"
+                      >
+                        Share your bookmarks
+                      </h1>
+                      <p class="lead ms-5">
+                        Easily share your bookmarks and collections with others.
+                        Create a sharable link that you can send at the click of
+                        button.
+                      </p>
+                      <div
+                        class="d-grid ms-5 gap-2 d-md-flex justify-content-md-start"
+                      >
+                        <button
+                          type="button"
+                          class="btn btn-primary btn-lg px-4"
+                        >
+                          Primary
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contenedor cards -->
+
+    <div class="container text-center mt-5">
+      <h2>Download the extension</h2>
+      <p>
+        We've got more browsers the pipeline. Please do let us know if you've
+        got a favourite you'd like us to prioritize.
+      </p>
+      <div class="row mt-4">
+        <!-- primera card -->
+        <div class="col-sm-12 col-md-4 col-lg-4 py-3">
+          <div class="card shadow">
+            <img
+              src="/Recursos_projecte_sprint_2-20230213/Imagenes/logo-chrome.svg"
+              alt="chrome"
+              class="img-fluid p-5"
+            />
+            <div class="card-body text-center">
+              <h4 class="card-title font-weight-bold">Add to Chrome</h4>
+              <p class="card-text">Minimum version 62</p>
+              <img
+                src="/Recursos_projecte_sprint_2-20230213/Imagenes/bg-dots.svg"
+              />
+              <a href="#" class="btn btn-primary">Add & Install Extension</a>
+            </div>
+          </div>
+        </div>
+        <!-- segunda card -->
+        <div class="col-sm-12 col-md-4 col-lg-4 py-3 mt-4">
+          <div class="card shadow">
+            <img
+              src="/Recursos_projecte_sprint_2-20230213/Imagenes/logo-firefox.svg"
+              alt="chrome"
+              class="img-fluid p-5"
+            />
+            <div class="card-body text-center">
+              <h4 class="card-title font-weight-bold">Add to Firefox</h4>
+              <p class="card-text">Minimum version 62</p>
+              <img
+                src="/Recursos_projecte_sprint_2-20230213/Imagenes/bg-dots.svg"
+              />
+              <a href="#" class="btn btn-primary">Add & Install Extension</a>
+            </div>
+          </div>
+        </div>
+        <!-- tercera card -->
+        <div class="col-sm-12 col-md-4 col-lg-4 py-3">
+          <div class="card shadow mt-5">
+            <img
+              src="/Recursos_projecte_sprint_2-20230213/Imagenes/logo-opera.svg"
+              alt="chrome"
+              class="img-fluid p-5"
+            />
+            <div class="card-body text-center">
+              <h4 class="card-title font-weight-bold">Add to Opera</h4>
+              <p class="card-text">Minimum version 62</p>
+              <img
+                src="/Recursos_projecte_sprint_2-20230213/Imagenes/bg-dots.svg"
+              />
+              <a href="#" class="btn btn-primary">Add & Install Extension</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section FAQS container -->
+    <div class="container pt-5">
+      <div
+        class="col-12 d-flex text-center justify-content-center fw-bold fontsize50"
+      >
+        Frequently Asked Questions
+      </div>
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 col-12 d-flex text-center fs-5 textGray pt-3 pb-5">
+          Here are some of our FAQs. If you have any other questions you'd like
+          answered please feel free to email us.
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+    <!-- section FAQS container 2 -->
+    <div class="container pt-3">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6 align-items-center">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <div class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed d-flex fw-bold redHover"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  What is bookmart?
+                </button>
+              </div>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Perferendis, labore quo obcaecati dolores eos, earum voluptate
+                  assumenda modi ea sit libero, iste consectetur molestiae?
+                  Eligendi iure reiciendis consequatur dolores accusamus.
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header" id="flush-headingTwo">
+                  <button
+                    class="accordion-button collapsed d-flex fw-bold redHover"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    How can I request a new browser?
+                  </button>
+                </div>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nobis ullam nostrum provident. Saepe enim, modi nihil, quas
+                    a nulla perspiciatis culpa vitae, error voluptatem dolor at
+                    id accusamus qui eum!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed d-flex fw-bold redHover"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Is there a mobile app?
+                  </button>
+                </div>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+                    labore, aperiam quaerat id mollitia consequatur, libero
+                    perferendis ipsum veniam repellendus molestias, maiores
+                    ratione. Sit, nesciunt voluptate unde ipsa mollitia commodi!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-header" id="flush-headingFour">
+                  <button
+                    class="accordion-button collapsed d-flex fw-bold redHover"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFour"
+                  >
+                    What about others Chromium browsers?
+                  </button>
+                </div>
+                <div
+                  id="flush-collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingFour"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Placeat voluptas delectus voluptatem! Assumenda quam qui
+                    esse, facere eum dignissimos et modi atque excepturi autem,
+                    illum minus ab sunt consequuntur ad.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center pt-4 pb-5">
+        <button
+        class="btn-faq col-4 col-md-2 d-flex p-3 text-white rounded-3 shadow bg bg-primary justify-content-center"
+          href="#"
+        >
+          More info
+        </button>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container-fluid p-4" style="background-color: #5266df">
+        <p class="my-5">35.000+ ALREADY JOINED</p>
+        <p class="h2 my-5">Stay up-to-date with what <br> we're doing</p>
+      </div>
+      <div class="container-fluid p-4" style="background-color: #242946">
+        <!-- Section: Form -->
+        <section class="">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+
+              <div class="col-auto">
+                <p class="pt-2"></p>
+              </div>
+
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-outline form-white mb-4">
+                  <input
+                    type="email"
+                    id="form5Example21"
+                    class="form-control"
+                    placeholder="introduce tu email aqui"
+                  />
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Contact Us!
+                </button>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+        <!-- Section: Form -->
+
+        <!-- Section: Links -->
+        <section class="lower-footer">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-lg-2 mb-5 mb-md-0">
+              <a class="navbar-brand" href="#"
+                ><img
+                  src="/Recursos_projecte_sprint_2-20230213/Imagenes/logo-bookmark.svg"
+                  alt="bookmark logo"
+                  class="mb-2"
+              /></a>
+            </div>
+            <div class="col-lg-2 mb-4 mb-md-0">
+              <a href="#" class="hover-class text-decoration-none"
+                ><h5 class=" ">FEATURES</h5></a
+              >
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-2 mb-4 mb-md-0">
+              <a href="#" class="hover-class text-decoration-none"
+                ><h5>PRICING</h5></a
+              >
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-2 mb-4 mb-md-0">
+              <a href="#" class="hover-class text-decoration-none"
+                ><h5>CONTACT</h5></a
+              >
+            </div>
+            <div class="col-lg-2 d-flex justify-content-end mb-4 mb-md-0">
+              <a href="#" class="social-media"
+                ><i class="bi bi-twitter me-5"></i
+              ></a>
+              <a href="#" class="social-media"
+                ><i class="bi bi-facebook me-5"></i
+              ></a>
+            </div>
+          </div>
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
